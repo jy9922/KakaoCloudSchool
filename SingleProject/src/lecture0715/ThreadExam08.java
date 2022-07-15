@@ -44,7 +44,7 @@ public class ThreadExam08 {
 							 // 0.0보다 같거나 크고 200보다 작은 정수
 			
 			// 필요한 memory가 사용할 수 있는 양보다 크거나 
-			// 현재 전체 메모리양의 60%이상을 사용하고 있을 때 gc를 실행
+			// 현재 전체 메모리양의 60%이상을 사용하고 있을 때 gc를 실행~
 			if ((t1.freeMemory() < requiredMemory) ||
 					(t1.freeMemory() < t1.totalMemory() * 0.4)) {
 				t1.interrupt(); // 여기서 gc() 실행이 끝날때까지 기다리지 않아요..!

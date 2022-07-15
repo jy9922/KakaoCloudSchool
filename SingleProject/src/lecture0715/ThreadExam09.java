@@ -9,7 +9,7 @@ class Account{
 	// 출금하는 method => 동기화 처리
 	public void withdraw(int money) {
 		// 동기화 블록
-		synchronized(this) { // 인자에는 어떤 객체에 대해 동기화 할지~
+		synchronized(this) { // 인자에는 어떤 객체에 대해 동기화 할지~!
 			if (balance >= money) {
 				try {
 					Thread.sleep(1000);

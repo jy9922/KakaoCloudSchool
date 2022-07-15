@@ -20,7 +20,7 @@ class ThreadEx_10 implements Runnable{
 }
 public class ThreadQuize01 {
 	public static void main(String[] args) {
-		ThreadEx_10 r = new ThreadEx_10(); // runnable 객체..
+		ThreadEx_10 r = new ThreadEx_10(); // runnable 객체...!
 		
 		Thread t1 = new Thread(r, "첫번째 스레드");
 		Thread t2 = new Thread(r, "두번째 스레드");

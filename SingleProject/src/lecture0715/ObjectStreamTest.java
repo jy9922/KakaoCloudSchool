@@ -17,7 +17,7 @@ public class ObjectStreamTest {
 		File file = new File("C:/Users/user/Desktop/readme.txt");
 		FileOutputStream fos = null;
 		try {
-			fos = new FileOutputStream(file); // 파일이 없으면 파일을 만들어줌
+			fos = new FileOutputStream(file); // 파일이 없으면 파일을 만들어줌..
 											  // FileOutputStream은 객체 전달 능력X
 			  								  // FileOutputStream 자체로 사용할 수 없음!
 			ObjectOutputStream oos = new ObjectOutputStream(fos);

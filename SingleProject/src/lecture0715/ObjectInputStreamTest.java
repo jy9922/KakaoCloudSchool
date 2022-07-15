@@ -17,7 +17,7 @@ public class ObjectInputStreamTest {
 			Object obj = ois.readObject(); //캐스팅
 			
 			Map<String,String> map = (Map<String,String>)obj;
-			System.out.println(map.get("2")); // 키가 2인 값 가져오기
+			System.out.println(map.get("2")); // 키가 2인 값 가져오기!
 			
 			ois.close();
 			fis.close();
