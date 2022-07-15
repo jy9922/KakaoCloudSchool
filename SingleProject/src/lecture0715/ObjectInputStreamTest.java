@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 import java.util.Map;
 
+/* 객체스트림 */
 public class ObjectInputStreamTest {
 	public static void main(String[] args) {
 		File file = new File("C:/Users/user/Desktop/readme.txt");

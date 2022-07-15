@@ -45,7 +45,7 @@ public class MyNotepad extends Application{
 		openBtn = new Button("파일 열기");
 		openBtn.setPrefSize(150, 40);
 		
-		// EventHandler은 interface이다. 
+		// EventHandler은 interface이다!
 		// 추상 메서드를 오버라이딩하고 있기 때문에 동적으로 인스턴스를 생성할 수 있다.
 		// 이벤트가 버튼에서 발생 -> 이벤트 처리 객체를 위임하는 것
 //		openBtn.setOnAction(new EventHandler<ActionEvent>() {

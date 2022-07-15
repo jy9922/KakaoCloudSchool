@@ -19,7 +19,7 @@ public class ObjectStreamTest {
 		try {
 			fos = new FileOutputStream(file); // 파일이 없으면 파일을 만들어줌
 											  // FileOutputStream은 객체 전달 능력X
-			  								  // FileOutputStream 자체로 사용할 수 없음
+			  								  // FileOutputStream 자체로 사용할 수 없음!
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
 			oos.writeObject(map);
 			
